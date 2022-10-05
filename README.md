@@ -6,3 +6,4 @@ Your own JS transpilation playground 🤸🏻🛝
 
 - TypeScript ([docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html))
 - Babel ([docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html))
+- SWC ([docs](https://swc.rs/docs/getting-started))
