@@ -1,6 +1,6 @@
 rm -rf output
 
 tsc & \
-babel entrypoint.ts --out-dir output/babel --extensions '.ts' & \
-swc entrypoint.ts -d output/swc & \
-esbuild entrypoint.ts --outdir=output/esbuild
+babel src/*.ts --out-dir output/babel --extensions '.ts' & \
+swc src/*.ts -d output/swc & \
+esbuild src/*.ts --outdir=output/esbuild
