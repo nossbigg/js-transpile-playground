@@ -5,7 +5,7 @@
   "author": "nossbigg <chenggibson@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec ./compileFiles.sh -e js,ts,sh --ignore output/"
+    "dev": "nodemon --exec ./compileFiles.sh -e js,ts,sh,json --ignore output/"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
